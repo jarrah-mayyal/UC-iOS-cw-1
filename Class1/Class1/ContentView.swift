@@ -18,16 +18,16 @@ struct ContentView: View {
             
             VStack (spacing: 33) {
                 Text("Hello my name is Jarrah")
-                    .font(.body)
-                    .fontWeight(.medium)
+                    
 
                     
                     
                 Text("I am 20 years old")
-                    .font(.headline)
-                    .fontWeight(.regular)
-
+                    
+                
                 Text("I am learning SWIFTUI with unicode")
+                
+                Text("I am studying business management at AOU")
 
                 HStack (spacing: 90) {
                     Image(systemName: "heart.fill")
